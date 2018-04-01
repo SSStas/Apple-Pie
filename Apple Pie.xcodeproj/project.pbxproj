@@ -14,6 +14,8 @@
 		79213C302070C8BF00494795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79213C2E2070C8BF00494795 /* LaunchScreen.storyboard */; };
 		79213C3B2070C8BF00494795 /* Apple_PieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79213C3A2070C8BF00494795 /* Apple_PieTests.swift */; };
 		79213C462070C8BF00494795 /* Apple_PieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79213C452070C8BF00494795 /* Apple_PieUITests.swift */; };
+		79213C642070DA5000494795 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79213C632070DA5000494795 /* Names.swift */; };
+		79213C662070DB8500494795 /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79213C652070DB8500494795 /* game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		79213C412070C8BF00494795 /* Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79213C452070C8BF00494795 /* Apple_PieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieUITests.swift; sourceTree = "<group>"; };
 		79213C472070C8BF00494795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79213C632070DA5000494795 /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		79213C652070DB8500494795 /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				79213C252070C8BF00494795 /* AppDelegate.swift */,
 				79213C272070C8BF00494795 /* ViewController.swift */,
 				79213C292070C8BF00494795 /* Main.storyboard */,
+				79213C652070DB8500494795 /* game.swift */,
+				79213C632070DA5000494795 /* Names.swift */,
 				79213C2C2070C8BF00494795 /* Assets.xcassets */,
 				79213C2E2070C8BF00494795 /* LaunchScreen.storyboard */,
 				79213C312070C8BF00494795 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79213C642070DA5000494795 /* Names.swift in Sources */,
 				79213C282070C8BF00494795 /* ViewController.swift in Sources */,
 				79213C262070C8BF00494795 /* AppDelegate.swift in Sources */,
+				79213C662070DB8500494795 /* game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M326LH9Q2Q;
 				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "examlpe.com.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +451,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M326LH9Q2Q;
 				INFOPLIST_FILE = "Apple Pie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "examlpe.com.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
